@@ -12,6 +12,9 @@ The following libraries were utilized for data manipulation and visualization:
 - **NumPy**: For numerical operations.
 - **Matplotlib**: For creating static, animated, and interactive visualizations.
 - **Seaborn**: For statistical data visualization.
+- **scikit-learn**: For machine learning algorithms and data preprocessing.
+- **xgboost**: For gradient boosting algorithms.
+- **shap**: For model interpretability and explanation.
 
 ## Instructions
 ### 1. Preprocess Data
@@ -20,6 +23,6 @@ First, convert and clean the data using the provided Python script:
 ```bash
 python src/txt_to_csv_clean.py
 jupyter notebook EDA_analysis.ipynb
-jupyter hypothesis_testing.ipynb
-jupyter statistical_modeling.ipynb
+jupyter notebook hypothesis_testing.ipynb
+jupyter notebook statistical_modeling.ipynb
 ```
