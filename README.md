@@ -20,4 +20,6 @@ First, convert and clean the data using the provided Python script:
 ```bash
 python src/txt_to_csv_clean.py
 jupyter notebook EDA_analysis.ipynb
+jupyter hypothesis_testing.ipynb
+jupyter statistical_modeling.ipynb
 ```
